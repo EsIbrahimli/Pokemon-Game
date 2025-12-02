@@ -10,7 +10,7 @@ const PokemonTeam = ({ pokemonTeam, increasePokemon, reducePokemon, removePokemo
             {pokemonTeam.map(pokemon => (
                 <div key={pokemon.id} className={styles.teamItem}>
                     <div className={styles.infoContainer}>
-                        <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} alt={pokemon.name} />
+                        <img className={styles.img} src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} alt={pokemon.name} />
                         <h2 className={styles.title}>{pokemon.name}</h2>
                     </div>
                     <div className={styles.buttonContainer}>
