@@ -1,0 +1,21 @@
+
+
+.table {
+    width: 82% !important;
+    border-radius: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+    border: 10px solid white !important;
+   
+    overflow: hidden !important;
+}
+
+.table thead th {
+    border: 10px solid white !important;
+}
+
+.table tbody td {
+    border: 10px solid white !important;
+}
+
+
+
