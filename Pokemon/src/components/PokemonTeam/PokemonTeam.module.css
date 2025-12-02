@@ -1,0 +1,46 @@
+
+
+.teamContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #333;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttonContainer p{
+    padding-top:14px;
+}
+
+.teamItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
